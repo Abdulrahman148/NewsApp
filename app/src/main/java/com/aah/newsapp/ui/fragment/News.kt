@@ -54,7 +54,7 @@ class News : Fragment() {
 
         newsViewModel.getData()
         initViews()
-        observe()
+        observe().apply {  }
 
     }
 
